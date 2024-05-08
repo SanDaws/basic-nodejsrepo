@@ -47,4 +47,18 @@ function impresionForEach() {
     });
     
 }
-impresionForEach()
+function impresionForIn() {
+    for (const coder in coders) {
+        tbody.innerHTML+=`
+            <tr>
+                <th scope="row">${coders[coder].id}</th>
+                <td>${coders[coder].name}</td>
+                <td>${coders[coder].lastName}</td>
+                <td>${coders[coder].email}</td>
+            </tr>
+            `
+    }
+    
+    
+}
+impresionForIn()

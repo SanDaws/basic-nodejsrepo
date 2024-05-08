@@ -1,0 +1,12 @@
+<meta name="description"
+        content="descripcion del proyecto" />
+    <meta name="keywords"
+        content="palabras claves separadas por coma">
+    <meta name="sitedomain" content="https://riwi.io">
+    <meta name="organization" content="Riwi_nombre del clan">
+    <meta name="author" content="nombre del autor">
+    <meta name="designer" content="nombre del diseñaro">
+    <meta name="copyright" content="© 2024 Riwi. All rights reserved">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="15days">

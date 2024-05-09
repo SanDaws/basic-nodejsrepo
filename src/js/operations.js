@@ -1,6 +1,6 @@
-const tbody= document.querySelector('tbody')
 
-export function impresionForof(coders,tbody) {
+
+export function index(coders,tbody) {
     for (const coder of coders) {
         tbody.innerHTML+=`
         <tr>

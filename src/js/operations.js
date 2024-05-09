@@ -1,6 +1,7 @@
 
 
 export function index(coders,tbody) {
+    tbody.innerHTML=""
     for (const coder of coders) {
         tbody.innerHTML+=`
         <tr>
@@ -57,4 +58,13 @@ function impresionForIn() {
     }
     
     
+}
+export function create(name,lastName,email, coders) {
+    const coder ={
+        id: Date.now(),
+        name: name.value,
+        lastName: lastName.value,
+        email: email.value
+    }
+    coders.push(coder)
 }

@@ -1,6 +1,6 @@
 const tbody= document.querySelector('tbody')
 
-export function impresionForof(coders) {
+export function impresionForof(coders,tbody) {
     for (const coder of coders) {
         tbody.innerHTML+=`
         <tr>
@@ -13,6 +13,7 @@ export function impresionForof(coders) {
         
     }
 }
+//noralmente esto se debe borrar pero para tenerlos en cuenta se quedan aca
 function impresionFor() {
     for (let i = 0; i < coders.length; i++) {
         const coder = coders[i];

@@ -29,6 +29,26 @@
                 </tbody>
                 </table>
         </section>
+
+        <section class="container">
+            <form action="./src/pages/server.html" method='post'>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control"  name="name" id="name" placeholder="name(s)">
+                <label for="name">Name(s)</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control"  name="lastName" id="lastName" placeholder="lastName">
+                <label for="LastName">Last Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control"  name="mail" id="mail" placeholder="email">
+                <label for="email">Email</label>
+                </div>
+                <section class="text-center">
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </section>
+            </form>
+        </section>
     </main>
     <footer></footer>
     <script type="module" src="./src/js/main.js"></script>

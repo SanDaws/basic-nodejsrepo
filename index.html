@@ -13,6 +13,7 @@
         <h1 class="mx-5">Programadores clan Dell</h1>
     </header>
     <main>
+        
         <section class="container">
             <table class="table table-striped table-hover ">
                 <thead class="text-capitalize">
@@ -21,6 +22,7 @@
                     <th scope="col">Nombre</th>
                     <th scope="col">Apellido</th>
                     <th scope="col">Correo</th>
+                    <th scope="col">Options</th>
                     </tr>
                 </thead>
                 <tbody class="table-group-divider">
@@ -33,15 +35,15 @@
         <section id="fbody" class="container">
             <form action="./src/pages/server.html" method='post'>
                 <div class="form-floating mb-3">
-                    <input type="text" class="form-control"  name="name" id="name" placeholder="name(s)">
+                    <input type="text" class="form-control"  name="name" id="name" placeholder="name(s)" required>
                 <label for="name">Name(s)</label>
                 </div>
                 <div class="form-floating mb-3">
-                    <input type="text" class="form-control"  name="lastName" id="lastName" placeholder="lastName">
+                    <input type="text" class="form-control"  name="lastName" id="lastName" placeholder="lastName" required>
                 <label for="LastName">Last Name</label>
                 </div>
                 <div class="form-floating mb-3">
-                    <input type="email" class="form-control"  name="mail" id="mail" placeholder="email">
+                    <input type="email" class="form-control"  name="mail" id="mail" placeholder="email" required>
                 <label for="email">Email</label>
                 </div>
                 <section class="text-center">

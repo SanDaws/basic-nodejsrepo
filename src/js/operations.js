@@ -9,6 +9,11 @@ export function index(coders,tbody) {
             <td>${coder.name}</td>
             <td>${coder.lastName}</td>
             <td>${coder.email}</td>
+            <td>
+                <button data.id=${coder.id} class="btn  btn-danger">Eliminar</button>
+                <button data.id=${coder.id} class="btn  btn-warning">Editar</button>
+                <button data.id=${coder.id} class="btn  btn-info">Detalles</button>
+            </td>
         </tr>
         `
         
